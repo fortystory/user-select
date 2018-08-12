@@ -4,10 +4,15 @@
   "name": "user-select",
   "version": "1.0",
 
-  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "description": "A add-ons the web which can not select text and copy.",
+  "homepage_url": "https://github.com/fortystory/user-select",
 
   "icons": {
     "48": "icons/icon.ico"
+  },
+  "browser_action": {
+	  "default_icon": "icons/icon.ico",
+	  "default_title": "user select"
   },
 
   "content_scripts": [
